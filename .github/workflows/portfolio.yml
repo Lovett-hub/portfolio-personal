@@ -22,5 +22,5 @@ jobs:
 
       - name: Deploy portfolio to S3
         run: |
-          aws s3 sync . s3://YOUR-BUCKET-NAME --delete --exclude ".git/*" --exclude ".github/*"
+          aws s3 sync . s3://portfoliobuckets22 --delete --exclude ".git/*" --exclude ".github/*"
 
